@@ -1,0 +1,117 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #968d8d;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.note-board-container {
+  max-width: 500px;
+  width: 100%;
+  padding: 40px 30px;
+  background-color: #fff8dc; 
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  overflow: hidden;
+ 
+}
+
+.text{
+  font-size: 50px;
+  margin-left: 35px;
+}
+
+
+.note-board-container h1 {
+  color: #d2691e;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+
+.form-section input[type="text"], .form-section textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #ffdead;
+  color: #8b4513;
+  border: 1px solid #deb887;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #deb887;
+}
+
+button.clear-btn {
+  background-color: #fa8072;
+  color: #fff;
+}
+
+button.clear-btn:hover {
+  box-shadow: 0 0 10px #ff4500;
+}
+
+
+.wishlist-item {
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.wishlist-item:hover {
+  transform: translateY(-4px);
+}
+
+
+
+
+.wishlist-item h3 {
+  margin: 0;
+  color: #8b4513;
+}
+
+
+
+
+.wishlist-item p {
+  margin: 5px 0 0 0;
+  color: #555;
+  font-size: 14px;
+}
+
+
+
+.empty-text {
+  color: #999;
+  font-style: italic;
+  margin-top: 20px;
+}
